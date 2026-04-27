@@ -391,6 +391,26 @@ def log_table_constraints(constraints: Optional[Dict] = None, planner_type: str 
     pass
 
 
+def log_tbe_composition(grouped_configs: List, rank: int = 0, technique: OptimizationTechnique = OptimizationTechnique.NONE) -> None:  # type: ignore[type-arg]
+    """No-op OSS stub."""
+    pass
+
+
+def log_search_space_summary(search_space: List, planner_type: str = "", technique: OptimizationTechnique = OptimizationTechnique.NONE) -> None:  # type: ignore[type-arg]
+    """No-op OSS stub."""
+    pass
+
+
+def log_search_space_augmented(
+    search_space_before: List,  # type: ignore[type-arg]
+    search_space_after: List,  # type: ignore[type-arg]
+    planner_type: str = "",
+    technique: OptimizationTechnique = OptimizationTechnique.EMO,
+) -> None:
+    """No-op OSS stub."""
+    pass
+
+
 def log_proposer_result(
     planner_type: str = "",
     proposer_name: str = "",
